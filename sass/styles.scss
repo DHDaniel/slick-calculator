@@ -1,0 +1,111 @@
+
+$mobile : 430px;
+$tablet : 768px;
+$desktop : 1440px;
+
+$background : #4F4F4F;
+$slick-black : #2D2D2D;
+$console : #727272;
+$highlight : #ED8600;
+$danger : #E24D4D;
+
+$console-height : 80px;
+$input-field-height : ($console-height / 3) * 2;
+$chain-height : ($console-height / 3) * 1;
+
+$button-height : 60px;
+
+.no-padding {
+  padding: 0px;
+}
+
+#wrapper {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: $background;
+
+}
+
+#calculator {
+  max-width: 500px;
+  background-color: $slick-black;
+
+  #title {
+    text-transform: uppercase;
+    text-align: center;
+    color: $console;
+  }
+
+  #console {
+    height: $console-height;
+    background-color: $console;
+    text-align: right;
+
+    .input-field {
+      display: block;
+      padding: 0px 10px;
+      height: $input-field-height;
+      line-height: $input-field-height;
+      font-size: 2em;
+    }
+    .chain {
+      display: block;
+      padding: 0px 10px;
+      height: $chain-height;
+      line-height: $chain-height;
+    }
+  }
+
+  table {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    color: white;
+
+    td {
+      text-align: center;
+      height: $button-height;
+      line-height: $button-height;
+
+      &:hover {
+        cursor: pointer;
+        background-color: lighten($slick-black, 10%);
+      }
+    }
+
+    &#top {
+      td {
+        background-color: $danger;
+
+        &:hover {
+          background-color: lighten($danger, 10%);
+        }
+      }
+    }
+
+    &#bottom {
+      td:first-child {
+        width: 66.6%;
+      }
+    }
+
+    &#calculations {
+      td {
+        background-color: $highlight;
+        color: $slick-black;
+        font-size: 1.8em;
+
+        &:hover {
+          background-color: lighten($highlight, 10%);
+        }
+      }
+    }
+  }
+}

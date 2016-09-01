@@ -1,0 +1,89 @@
+/* line 18, ../sass/styles.scss */
+.no-padding {
+  padding: 0px;
+}
+
+/* line 22, ../sass/styles.scss */
+#wrapper {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4F4F4F;
+}
+
+/* line 36, ../sass/styles.scss */
+#calculator {
+  max-width: 500px;
+  background-color: #2D2D2D;
+}
+/* line 40, ../sass/styles.scss */
+#calculator #title {
+  text-transform: uppercase;
+  text-align: center;
+  color: #727272;
+}
+/* line 46, ../sass/styles.scss */
+#calculator #console {
+  height: 80px;
+  background-color: #727272;
+  text-align: right;
+}
+/* line 51, ../sass/styles.scss */
+#calculator #console .input-field {
+  display: block;
+  padding: 0px 10px;
+  height: 53.33333px;
+  line-height: 53.33333px;
+  font-size: 2em;
+}
+/* line 58, ../sass/styles.scss */
+#calculator #console .chain {
+  display: block;
+  padding: 0px 10px;
+  height: 26.66667px;
+  line-height: 26.66667px;
+}
+/* line 66, ../sass/styles.scss */
+#calculator table {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+/* line 72, ../sass/styles.scss */
+#calculator table td {
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+}
+/* line 77, ../sass/styles.scss */
+#calculator table td:hover {
+  cursor: pointer;
+  background-color: #474747;
+}
+/* line 84, ../sass/styles.scss */
+#calculator table#top td {
+  background-color: #E24D4D;
+}
+/* line 87, ../sass/styles.scss */
+#calculator table#top td:hover {
+  background-color: #e97979;
+}
+/* line 94, ../sass/styles.scss */
+#calculator table#bottom td:first-child {
+  width: 66.6%;
+}
+/* line 100, ../sass/styles.scss */
+#calculator table#calculations td {
+  background-color: #ED8600;
+  color: #2D2D2D;
+  font-size: 1.8em;
+}
+/* line 105, ../sass/styles.scss */
+#calculator table#calculations td:hover {
+  background-color: #ff9f21;
+}
