@@ -66,11 +66,11 @@
   background-color: #474747;
 }
 /* line 84, ../sass/styles.scss */
-#calculator table#top td {
+#calculator table#clear td {
   background-color: #E24D4D;
 }
 /* line 87, ../sass/styles.scss */
-#calculator table#top td:hover {
+#calculator table#clear td:hover {
   background-color: #e97979;
 }
 /* line 94, ../sass/styles.scss */
