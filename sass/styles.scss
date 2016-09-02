@@ -54,12 +54,16 @@ $button-height : 60px;
       height: $input-field-height;
       line-height: $input-field-height;
       font-size: 2em;
+
+      overflow: hidden;
     }
     .chain {
       display: block;
       padding: 0px 10px;
       height: $chain-height;
       line-height: $chain-height;
+
+      overflow: hidden;
     }
   }
 

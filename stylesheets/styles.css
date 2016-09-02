@@ -39,51 +39,53 @@
   height: 53.33333px;
   line-height: 53.33333px;
   font-size: 2em;
+  overflow: hidden;
 }
-/* line 58, ../sass/styles.scss */
+/* line 60, ../sass/styles.scss */
 #calculator #console .chain {
   display: block;
   padding: 0px 10px;
   height: 26.66667px;
   line-height: 26.66667px;
+  overflow: hidden;
 }
-/* line 66, ../sass/styles.scss */
+/* line 70, ../sass/styles.scss */
 #calculator table {
   margin: 0px;
   width: 100%;
   height: 100%;
   color: white;
 }
-/* line 72, ../sass/styles.scss */
+/* line 76, ../sass/styles.scss */
 #calculator table td {
   text-align: center;
   height: 60px;
   line-height: 60px;
 }
-/* line 77, ../sass/styles.scss */
+/* line 81, ../sass/styles.scss */
 #calculator table td:hover {
   cursor: pointer;
   background-color: #474747;
 }
-/* line 84, ../sass/styles.scss */
+/* line 88, ../sass/styles.scss */
 #calculator table#clear td {
   background-color: #E24D4D;
 }
-/* line 87, ../sass/styles.scss */
+/* line 91, ../sass/styles.scss */
 #calculator table#clear td:hover {
   background-color: #e97979;
 }
-/* line 94, ../sass/styles.scss */
+/* line 98, ../sass/styles.scss */
 #calculator table#bottom td:first-child {
   width: 66.6%;
 }
-/* line 100, ../sass/styles.scss */
+/* line 104, ../sass/styles.scss */
 #calculator table#calculations td {
   background-color: #ED8600;
   color: #2D2D2D;
   font-size: 1.8em;
 }
-/* line 105, ../sass/styles.scss */
+/* line 109, ../sass/styles.scss */
 #calculator table#calculations td:hover {
   background-color: #ff9f21;
 }
